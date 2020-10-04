@@ -55,7 +55,7 @@ const Ejemplo = () => {
                 {
                 entradas.map(entrada => 
                 <li>{entrada.titulo}-{entrada.description}</li>
-                )  
+                )
                 }
             </ul>
         </Fragment>
@@ -63,3 +63,5 @@ const Ejemplo = () => {
 }
  
 export default Ejemplo;
+
+
